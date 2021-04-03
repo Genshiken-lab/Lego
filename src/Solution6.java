@@ -10,4 +10,6 @@ public class Solution6 {
         // System.out.print("Merry New!");
         System.out.print(" ");
         System.out.println("Year");
-}
+    }
+ }
+

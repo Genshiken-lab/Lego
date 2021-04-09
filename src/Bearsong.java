@@ -3,7 +3,8 @@ public class Bearsong {
     // как ожидается. Поищите эту ошибку и попробуйте исправить
     public static void main(String[] args) {
         int beerNum = 99;
-        String word = "бутылок (бутылки)";
+        String word = "бутылки";
+        //String word2 = "бутылок";
         while (beerNum > 0) {
             System.out.println(beerNum + " " + word + " пива на стене");
             System.out.println(beerNum + " " + word + " пива");
@@ -13,11 +14,11 @@ public class Bearsong {
             if (beerNum == 1) {
                 word = "бутылка";
             }
-            if (beerNum > 0) {
-                System.out.println(beerNum + " " + word + " пива на стене");
-            } else {
-                System.out.println("Нет бутылок пива на стене");
+                    if (beerNum > 0) {
+                        System.out.println(beerNum + " " + word + " пива на стене");
+                    } else {
+                        System.out.println("Нет бутылок пива на стене");
+                    }
+                }
             }
         }
-    }
-}
